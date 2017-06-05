@@ -16,10 +16,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var promise_tracker_service_1 = require("./promise-tracker.service");
 var inactiveStyle = core_1.style({
-    opacity: 0,
-    transform: 'translateY(-40px)'
+    opacity: 0
 });
-var timing = '.3s ease';
+var timing = '.1s ease';
 ;
 var BusyComponent = (function () {
     function BusyComponent(tracker) {

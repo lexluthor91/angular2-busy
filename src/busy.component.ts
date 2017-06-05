@@ -16,10 +16,9 @@ import {PromiseTrackerService} from './promise-tracker.service';
 
 
 const inactiveStyle = style({
-    opacity: 0,
-    transform: 'translateY(-40px)'
+    opacity: 0
 });
-const timing = '.3s ease';
+const timing = '.1s ease';
 
 export interface IBusyContext {
     message: string;
